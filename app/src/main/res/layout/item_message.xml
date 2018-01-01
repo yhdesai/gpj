@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:adjustViewBounds="true" />
+    <!-- change the imageView resolution to something more sensible so it doesnt cover the whole screen -->
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:text="Message" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text="Name" />
+
+</LinearLayout>
+
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/singleMessageLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1px"
+    android:background="#FFF"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="6dp"
+        android:src="@drawable/default_profile_image" />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/itemDate"
+        android:layout_toRightOf="@+id/photoImageView"
+        android:layout_toStartOf="@+id/itemDate"
+        android:text="Aubree Keegan"
+        android:textColor="#333"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageTextView"
+        android:layout_toRightOf="@+id/photoImageView"
+        android:paddingTop="1dp"
+        android:text="Subject of Message"
+        android:textColor="#777"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/itemDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="May 31, 2015"
+        android:textColor="#BBB"
+        android:textSize="11sp" />
+
+</RelativeLayout>
+
+
+-->

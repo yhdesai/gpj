@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "221239579145",
+    "firebase_url": "https://gpj-chat.firebaseio.com",
+    "project_id": "gpj-chat",
+    "storage_bucket": "gpj-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221239579145:android:a0a46fd3257f43bb",
+        "android_client_info": {
+          "package_name": "io.github.yhdesai.gpj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221239579145-gd7gv2qbjq5v3170shoqv570a5g8h7s5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.yhdesai.gpj",
+            "certificate_hash": "463efc525e10f48452bb5621a25b9958283c8c29"
+          }
+        },
+        {
+          "client_id": "221239579145-72h5r79vbto2vu7ferc331mt11gq8cs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw0qgzunSBO5KLt7g_RaCmyfBnz5GzgNY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221239579145-72h5r79vbto2vu7ferc331mt11gq8cs2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
