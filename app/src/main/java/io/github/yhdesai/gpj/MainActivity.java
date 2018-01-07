@@ -84,7 +84,8 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.entc) {
             Intent entc =  new Intent(MainActivity.this, entc.class);
             startActivity(entc);
-        } else if (id == R.id.nav_gallery) {
+        }
+     /*   else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
 
@@ -94,7 +95,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_send) {
 
-        }
+        }  */
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
